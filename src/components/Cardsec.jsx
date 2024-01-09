@@ -32,13 +32,14 @@ const processcard = [
         para: "Suspendisse ultrices nibh non cursus sagittis. Morbi dictum consequat ex, quis finibus magna.",
         circle: arrow,
         botm: "lg:-translate-y-[30px]",
+        
     },
 ];
 
 const Cardsec = () => {
     const list = processcard.map((processcard) => (
         <div className="xl:w-1/4 lg:w-1/3 md:w-1/2 sm:w-1/2 w-full flex justify-center px-4 ">
-            <div className={`rounded-[185px] max-w-[281.63px] bg-white py-[32px] px-[21px] shadow-[0px_100px_200px_0px_#0117361A] ${processcard.botm} flex justify-center flex-col items-center mt-5 mt-lg-0 hover:scale-[1.1%]`}
+            <div className={`rounded-[185px] max-w-[281.63px] bg-white py-[32px] px-[21px] shadow-[0px_100px_200px_0px_#0117361A] ${processcard.botm} flex justify-center flex-col items-center mt-5 mt-lg-0 hover:scale-x-110`}
                 data-aos={`${processcard.animation}`}
                 data-aos-duration="3000"
             >

@@ -58,7 +58,7 @@ function Navsec() {
                 </div>
             </nav>
             <div className="max-w-[1140px] px-3 mx-auto pb-5 ">
-                <img src={aeroplan} alt="aeroplan" className='pt-3' data-aos="zoom-in" />
+                <img src={aeroplan} alt="aeroplan" className='pt-3 duration-3000' data-aos="zoom-out" />
                 <h2 className='text-white font-Montserrat sm:text-5xl text-[40px]  font-bold text-center pt-5' data-aos="flip-down">Travel around the world</h2>
                 <p className='text-white font-Inter text-xs font-normal text-center pt-2 pb-5' data-aos="flip-down">One of the advantages of being disorganized is that one is always having surprising discoveries</p>
             </div>

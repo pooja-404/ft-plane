@@ -20,7 +20,7 @@ const Tabsec = () => {
                     </div>
                 </div>
                 {active === "tab1" ?
-                    <div className='rounded-[0px_20px_20px_20px] bg-[#fff] shadow-[0px_100px_200px_0px_#0117361A] justify-center '>
+                    <div className='rounded-[0px_20px_20px_20px] bg-[#fff] shadow-[0px_100px_200px_0px_#0117361A] justify-center pb-4 '>
                         <div className='flex flex-wrap flex-row py-5 justify-center'>
                             <div className='lg:w-3/12 md:w-4/12 sm:w-2/4 w-full px-3 pt-4 pt-sm-0 flex justify-lg-center mx-auto'>
                                 <div className='flex items-center gap-3'>

@@ -7,7 +7,7 @@ import paris4 from '../assets/images/png/paris4.png'
 
 function Memories() {
     return (
-        <div className='py-24'>
+        <div className='lg:py-24 pt-4 pb-10'>
             <div className='max-w-[1140px] px-3 mx-auto'>
                 <h2 className='text-[#011736] font-Montserrat font-bold  sm:text-[40px] text-[36px] text-center'>Make memories with us</h2>
                 <div className='flex flex-wrap flex-row justify-center pt-8'>

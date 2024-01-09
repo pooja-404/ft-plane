@@ -194,7 +194,7 @@ const Slidersec = () => {
     ));
     return (
         <div>
-            <div className="container max-w-[1140px] px-3 mx-auto py-3">
+            <div className="container max-w-[1140px] px-3 mx-auto lg:py-3 py-7">
                 <div className="flex justify-center items-center flex-col">
                     <p className="text-[#313EF7]  md:text-xl text-lg font-semibold font-Montserrat">
                         What’s our customer saying
@@ -212,7 +212,7 @@ const Slidersec = () => {
                             <div className="flex gap-4 mt-8">
                                 <div className="pl-[35px]">
                                     <button
-                                        className="border-0 hover:bg-[#313EF7] group transition-all duration-500 bg-[#313EF71A] rounded-full w-[50px] h-[50px] flex items-center justify-center  group-hover:shadow-[0px_10px_14px_0px_#313EF740] "
+                                        className="border-0 hover:bg-[#313EF7] group transition-all duration-500 bg-[#313EF71A] rounded-full w-[50px] h-[50px] flex items-center justify-center hover:shadow-[0px_10px_14px_0px_#313EF740] "
                                         onClick={() => first?.current?.slickPrev()}
                                     >
                                         <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22" fill="none">
@@ -222,7 +222,7 @@ const Slidersec = () => {
                                 </div>
                                 <div>
                                     <button
-                                        className="border-0 bg-[#313EF71A] hover:bg-[#313EF7] transition-all duration-500 group rounded-full w-[50px] h-[50px] flex items-center justify-center   group-hover:shadow-[0px_10px_14px_0px_#313EF740]"
+                                        className="border-0 bg-[#313EF71A] hover:bg-[#313EF7] transition-all duration-500 group rounded-full w-[50px] h-[50px] flex items-center justify-center  hover:shadow-[0px_10px_14px_0px_#313EF740]"
                                         onClick={() => first?.current?.slickNext()}
                                     >
                                         <span><svg xmlns="http://www.w3.org/2000/svg" width="13" height="22" viewBox="0 0 13 22" fill="none">
