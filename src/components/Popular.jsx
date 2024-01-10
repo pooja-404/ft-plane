@@ -137,7 +137,7 @@ const Popular = () => {
                         <img
                             src={layer}
                             alt="cardlayer"
-                            className=" hidden sm:block absolute xl:max-w-[450px] max-w-[360px]  md:max-w-[378px] lg:left-[10%] left-[33%] top-[4%] lg:top-[5%] h-[520px]"
+                            className=" hidden lg:block absolute xl:max-w-[450px] max-w-[360px]  md:max-w-[378px] lg:left-[10%] left-[33%] top-[4%] lg:top-[5%] h-[520px]"
                         />
                         <img
                             src={layer}
