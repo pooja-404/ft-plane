@@ -53,7 +53,7 @@ const Features = () => {
                             </div>
 
                             <div className='flex items-center pt-5'>
-                                <button className='text-white font-Monstserrat font-semibold text-[16px] rounded-[56px]  bg-[#313EF7] border-0 px-11 py-3.5 mt-3 shadow-[0px_10px_14px_0px_#313EF740] transition-all duration-[900]   hover:-translate-y-5  hover:bg-[#030522]' onClick={show}>Book Now</button>
+                                <button className='text-white font-Monstserrat font-semibold text-[16px] rounded-[56px]  bg-[#313EF7] border-0 px-11 py-3.5 mt-3 shadow-[0px_10px_14px_0px_#313EF740]   transition-[all_.3s_ease_0s]  hover:scale-105  hover:bg-[#030522]' onClick={show}>Book Now</button>
                             </div>
 
                         </div>

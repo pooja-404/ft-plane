@@ -7,7 +7,7 @@ const Tabsec = () => {
     };
     return (
         <div className='pt-24'>
-            <div className='max-w-[1140px] px-3 mx-auto lg:mt-[-250px] md:mt-[-229px] mt-[-197px]  pt-5'>
+            <div className='max-w-[1140px] px-3 mx-auto lg:mt-[-270px] md:mt-[-229px] mt-[-197px]  pt-5'>
                 <div className='bg-[#fff] rounded-[20px_20px_0px_0px] flex lg:max-w-lg max-w-80 h-14 gap- 2 0 border-b border-[#F3F4F6] '>
                     <div onClick={() => handleTab1('tab1')} className={`${active === "tab1" ? "bg-[#313EF7] text-white" : "text-[#030522]"}  w-4/12 px-3 rounded-[20px_2px_0px_0px] flex justify-center items-center after:h-11  relative  after:w-px after:top-[-6] after:bg-[#F3F4F6] after:right-0 after:absolute  `}  >
                         <button className='font-semibold text-lg font-Montserrat'>Economy</button>
