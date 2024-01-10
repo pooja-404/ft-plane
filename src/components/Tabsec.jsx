@@ -98,7 +98,7 @@ const Tabsec = () => {
                             </div>
                         </div>
                         <div className='flex items-center  justify-center py-5'>
-                            <button className='text-white font-Montserrat font-semibold text-base rounded-[56px]  bg-[#313EF7] border-0 px-11 py-3.5  shadow-[0px_10px_14px_0px_#313EF740] transition-[all_.3s_ease_0s]  hover:-translate-y-5  hover:bg-[#030522]'>Book Now</button>
+                            <button className='text-white font-Montserrat font-semibold text-base rounded-[56px]  bg-[#313EF7] border-0 px-11 py-3.5  shadow-[0px_10px_14px_0px_#313EF740] transition-all duration-[900]   hover:-translate-y-5  hover:bg-[#030522]'>Book Now</button>
                         </div>
                     </div>
                     : ""}
@@ -180,7 +180,7 @@ const Tabsec = () => {
                                 </div>
                             </div>
                             <div className='flex items-center  justify-center py-5'>
-                                <button className='text-white font-Montserrat font-semibold text-base rounded-[56px]  bg-[#313EF7] border-0 px-11 py-3.5  shadow-[0px_10px_14px_0px_#313EF740] transition-[all_.3s_ease_0s]  hover:-translate-y-5  hover:bg-[#030522]'>Book Now</button>
+                                <button className='text-white font-Montserrat font-semibold text-base rounded-[56px]  bg-[#313EF7] border-0 px-11 py-3.5  shadow-[0px_10px_14px_0px_#313EF740] transition-all duration-[900]   hover:-translate-y-5  hover:bg-[#030522]'>Book Now</button>
                             </div>
                         </div>
                     </div>
@@ -261,7 +261,7 @@ const Tabsec = () => {
                                 </div>
                             </div>
                             <div className='flex items-center  justify-center py-5'>
-                                <button className='text-white font-Montserrat font-semibold text-base rounded-[56px]  bg-[#313EF7] border-0 px-11 py-3.5  shadow-[0px_10px_14px_0px_#313EF740] transition-[all_.3s_ease_0s]  hover:-translate-y-5  hover:bg-[#030522]'>Book Now</button>
+                                <button className='text-white font-Montserrat font-semibold text-base rounded-[56px]  bg-[#313EF7] border-0 px-11 py-3.5  shadow-[0px_10px_14px_0px_#313EF740] transition-all duration-[900]  hover:-translate-y-5  hover:bg-[#030522]'>Book Now</button>
                             </div>
                         </div>
                     </div>

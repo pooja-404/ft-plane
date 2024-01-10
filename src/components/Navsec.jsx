@@ -51,7 +51,7 @@ function Navsec() {
                             </a>
                         </li>
                         <li>
-                            <button className="py-[10px] px-10 rounded-[49px] text-white text-base font-semibold border-solid border border-white font-Montserrat transition-[800ms-linear]  hover:text-[#030522]  hover:bg-[white] hover:shadow-[0px_10px_14px_0px_#313EF740]" >
+                            <button className="py-[10px] px-10 rounded-[49px] text-white text-base font-semibold border-solid border border-white font-Montserrat transition-all duration-[900]  hover:text-[#030522]  hover:bg-[white] hover:shadow-[0px_10px_14px_0px_#313EF740]" >
                                 Let’s Fly
                             </button>
                         </li>
