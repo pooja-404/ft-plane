@@ -7,7 +7,7 @@ const Tabsec = () => {
     };
     return (
         <div className='pt-24'>
-            <div className='max-w-[1140px] px-3 mx-auto lg:-translate-y-56 -translate-y-30   pt-5'>
+            <div className='max-w-[1140px] px-3 mx-auto -translate-y-56 pt-5'>
                 <div className='bg-[#fff] rounded-[20px_20px_0px_0px] flex lg:max-w-lg max-w-80 h-14 gap- 2 0 border-b border-[#F3F4F6] '>
                     <div onClick={() => handleTab1('tab1')} className={`${active === "tab1" ? "bg-[#313EF7] text-white" : "text-[#030522]"}  w-4/12 px-3 rounded-[20px_2px_0px_0px] flex justify-center items-center after:h-11  relative  after:w-px after:top-[-6] after:bg-[#F3F4F6] after:right-0 after:absolute  `}  >
                         <button className='font-semibold text-lg font-Montserrat'>Economy</button>
@@ -261,7 +261,7 @@ const Tabsec = () => {
                                 </div>
                             </div>
                             <div className='flex items-center  justify-center py-5'>
-                                <button className='text-white font-Montserrat font-semibold text-base rounded-[56px]  bg-[#313EF7] border-0 px-11 py-3.5  shadow-[0px_10px_14px_0px_#313EF740] transition-all duration-[900]  hover:-translate-y-5  hover:bg-[#030522]'>Book Now</button>
+                                <button className='text-white font-Montserrat font-semibold text-base rounded-[56px]  bg-[#313EF7] border-0 px-11 py-3.5  shadow-[0px_10px_14px_0px_#313EF740] transition-[all_.3s_ease_0s]  hover:-translate-y-5  hover:bg-[#030522]'>Book Now</button>
                             </div>
                         </div>
                     </div>
