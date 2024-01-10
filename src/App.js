@@ -31,7 +31,7 @@ function App() {
   return (
     <div className="App overflow-hidden">
       <Preloader />
-      <div className='bg-[url(./assets/images/png/headerbg.png)] bg-cover bg-center bg-no-repeat sm:min-h-[80vh] min-h-[75vh] '>
+      <div className='bg-[url(./assets/images/png/headerbg.png)] bg-cover bg-center bg-no-repeat sm:min-h-[90vh] min-h-[75vh] '>
         <Navsec />
       </div>
       <Tabsec />
