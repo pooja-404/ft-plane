@@ -41,7 +41,7 @@ const Features = () => {
                                     <p className='text-[#030303] font-Monstserrat text-base font-medium'>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                                 </div>
                                 <div className=' absolute left-[4px] bottom-[15%] -z-[1]'>
-                                    <img src={line} alt="letsfly"/>
+                                    <img src={line} alt="letsfly" className='sm:block hidden'/>
                                 </div>
                                 <div>
                                     {modal ? (<div className='h-[200px] w-[200px] rounded-3xl bg-[#030522] border-white border-solid flex justify-center items-center flex-col mt-2'>

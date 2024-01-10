@@ -151,7 +151,7 @@ const Popular = () => {
                         />
                         <img
                             src={line2}
-                            alt="cardlayer" className="right-[-38px] absolute top-[47%] "/>
+                            alt="cardlayer" className="right-[-38px] absolute top-[47%] hidden lg:block "/>
                     
                         
                     </div>

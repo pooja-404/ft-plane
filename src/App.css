@@ -85,6 +85,9 @@ body {
     cursor: pointer;
     outline: none;
 } */
+.overflow_hidden {
+    overflow: hidden !important;
+}
 
 .btn:hover {
     background-color: #2EE59D;

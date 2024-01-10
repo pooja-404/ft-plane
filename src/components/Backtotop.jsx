@@ -1,8 +1,5 @@
 import React from 'react'
 
-
-
-
 const Backtop = () => {
     const [position, setPosition] = React.useState({ top: 0, left: 0 })
     React.useEffect(() => {

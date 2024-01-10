@@ -9,11 +9,17 @@ function Navsec() {
     function menu() {
         setshow(!set);
     }
-    
+    if (set === true) {
+        document.body.classList.remove("overflow_hidden")
+    }
+    else {
+        document.body.classList.add("overflow_hidden")
+    }
     return (
+
         <div>
-           
-            <nav className="max-w-[1140px] px-3 mx-auto pb-5">
+
+            <nav className="max-w-[1140px]  px-3 mx-auto pb-5">
                 <div className="flex justify-between py-3">
                     <div className='flex items-center gap-2 cursor-pointer'>
                         <img src={logo} alt="logo" />
