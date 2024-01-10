@@ -7,7 +7,7 @@ const Tabsec = () => {
     };
     return (
         <div className='pt-24'>
-            <div className='max-w-[1140px] px-3 mx-auto lg:mt-[-240px] md:mt-[-229px] mt-[-232px]  pt-5'>
+            <div className='max-w-[1140px] px-3 mx-auto lg:mt-[-250px] md:mt-[-229px] mt-[-197px]  pt-5'>
                 <div className='bg-[#fff] rounded-[20px_20px_0px_0px] flex lg:max-w-lg max-w-80 h-14 gap- 2 0 border-b border-[#F3F4F6] '>
                     <div onClick={() => handleTab1('tab1')} className={`${active === "tab1" ? "bg-[#313EF7] text-white" : "text-[#030522]"}  w-4/12 px-3 rounded-[20px_2px_0px_0px] flex justify-center items-center after:h-11  relative  after:w-px after:top-[-6] after:bg-[#F3F4F6] after:right-0 after:absolute  `}  >
                         <button className='font-semibold text-lg font-Montserrat'>Economy</button>
@@ -20,7 +20,7 @@ const Tabsec = () => {
                     </div>
                 </div>
                 {active === "tab1" ?
-                    <div className='rounded-[0px_20px_20px_20px] bg-[#fff] shadow-[0px_100px_200px_0px_#0117361A] justify-center pb-4 '>
+                    <div className='rounded-[0px_20px_20px_20px] bg-[#fff] shadow-[0px_100px_200px_0px_#0117361A] justify-center pb-4 pl-9 '>
                         <div className='flex flex-wrap flex-row py-5 justify-center'>
                             <div className='lg:w-3/12 md:w-4/12 sm:w-2/4 w-full px-3 pt-4 pt-sm-0 flex justify-lg-center mx-auto'>
                                 <div className='flex items-center gap-3'>
@@ -103,7 +103,7 @@ const Tabsec = () => {
                     </div>
                     : ""}
                 {active === "tab2" ?
-                    <div className='rounded-[0px_20px_20px_20px] bg-[#fff] shadow-[0px_100px_200px_0px_#0117361A] justify-center '>
+                    <div className='rounded-[0px_20px_20px_20px] bg-[#fff] shadow-[0px_100px_200px_0px_#0117361A] justify-center pl-9 '>
                         <div className='flex flex-wrap flex-row py-5 justify-center '>
                             <div className='lg:w-3/12 md:w-4/12 sm:w-2/4 w-full px-3 pt-4 pt-sm-0 flex justify-center'>
                                 <div className='flex items-center gap-3'>
@@ -186,7 +186,7 @@ const Tabsec = () => {
                     </div>
                     : ""}
                 {active === "tab3" ?
-                    <div className='rounded-[0px_20px_20px_20px] bg-[#fff] shadow-[0px_100px_200px_0px_#0117361A] justify-center'>
+                    <div className='rounded-[0px_20px_20px_20px] bg-[#fff] shadow-[0px_100px_200px_0px_#0117361A] justify-center pl-9'>
                         <div className='flex flex-wrap flex-row py-5 justify-center'>
                             <div className='lg:w-3/12 md:w-4/12 sm:w-2/4 w-full px-3 pt-4 pt-sm-0 flex justify-center'>
                                 <div className='flex items-center gap-3'>
